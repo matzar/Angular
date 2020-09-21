@@ -4,7 +4,9 @@ import { Component, OnInit } from '@angular/core';
   /*
   ? selector can be omitted
   */
-  selector: 'app-servers',
+  // selector: 'app-servers',
+  // selector: '[app-servers]', //? select by attribute - use square-brackets
+  selector: '.app-servers', //? select by class - put a full-stop before the components name
   /*
   ! templateUrl/template is compulsory
   templateUrl: './servers.component.html',
