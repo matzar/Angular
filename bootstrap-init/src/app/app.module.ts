@@ -5,7 +5,8 @@ import { AppComponent } from './app.component';
 // register new component here-> (let TypeScript know about it)
 import { ServerComponent } from './server/server.component';
 import { ServersComponent } from './servers/servers.component';
-import { WarningAlert } from './warning-alert/warning-alert.component'
+import { WarningAlert } from './warning-alert/warning-alert.component';
+import { SuccessAlertComponent } from './success-alert/success-alert.component'
 
 @NgModule({
   // register new components here-> (let angular know about it)
@@ -13,7 +14,8 @@ import { WarningAlert } from './warning-alert/warning-alert.component'
     AppComponent,
     ServerComponent,
     ServersComponent,
-    WarningAlert
+    WarningAlert,
+    SuccessAlertComponent
   ],
   imports: [
     BrowserModule
