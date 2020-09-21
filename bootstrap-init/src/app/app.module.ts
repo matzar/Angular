@@ -2,10 +2,11 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+// register new component here-> (let TypeScript know about it)
 import { ServerComponent } from './server/server.component';
 
 @NgModule({
-  // register new components here
+  // register new components here-> (let angular know about it)
   declarations: [
     AppComponent,
     ServerComponent
