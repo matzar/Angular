@@ -10,7 +10,7 @@ import { Component, OnInit } from '@angular/core';
   template: `
   <app-server></app-server>
   <app-server></app-server>`, // <- use backticks for multi-line html inlines (it's JavaScript template expressions)
-  //* style can be omitted
+  //* styleUrls can be omitted
   styleUrls: ['./servers.component.css']
 })
 export class ServersComponent implements OnInit {
