@@ -4,12 +4,14 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 // register new component here-> (let TypeScript know about it)
 import { ServerComponent } from './server/server.component';
+import { ServersComponent } from './servers/servers.component';
 
 @NgModule({
   // register new components here-> (let angular know about it)
   declarations: [
     AppComponent,
-    ServerComponent
+    ServerComponent,
+    ServersComponent
   ],
   imports: [
     BrowserModule

@@ -1,3 +1,4 @@
+// spec file is basically used for tesing
 import { TestBed } from '@angular/core/testing';
 import { AppComponent } from './app.component';
 
